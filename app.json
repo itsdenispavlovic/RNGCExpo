@@ -19,12 +19,7 @@
       "**/*"
     ],
     "plugins": [
-      [
-        "@config-plugins/react-native-google-cast",
-        {
-          "androidReceiverAppId": "1A02A949"
-        }
-      ]
+      ["@config-plugins/react-native-google-cast"]
     ],
     "ios": {
       "supportsTablet": true,

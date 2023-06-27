@@ -1,9 +1,10 @@
+import { Button, StyleSheet, View, Text } from "react-native";
+import GoogleCast, { CastButton, useRemoteMediaClient, CastState, useCastState } from "react-native-google-cast";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
-import { CastButton, useRemoteMediaClient } from 'react-native-google-cast'
 
 export default function App() {
-  const client = useRemoteMediaClient()
+  const client = useRemoteMediaClient();
+  const castState = useCastState();
 
   if (client) {
     // Send the media to your Cast device as soon as we connect to a device
@@ -19,8 +20,17 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <CastButton style={{ width: 24, height: 24, tintColor: 'black' }} />
+      {castState === CastState.CONNECTED && (
+        <Button
+          title="Controller"
+          onPress={() => {
+            GoogleCast.showExpandedControls();
+          }}
+        />
+      )}
+      <CastButton style={{ width: 24, height: 24, tintColor: "black" }} />
       <Text>Click on the Cast button</Text>
+      <Text>{castState}</Text>
       <StatusBar style="auto" />
     </View>
   );
