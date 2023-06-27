@@ -2,6 +2,7 @@
   "expo": {
     "name": "RNGCExpo",
     "slug": "RNGCExpo",
+    "owner": "denispavlovic",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -36,7 +37,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "7e09debf-c89f-48f8-ac57-8a02051f0437"
+        "projectId": "89991893-dd24-462f-a41b-1c5ed3ab24eb"
       }
     }
   }
