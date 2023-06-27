@@ -1051,10 +1051,10 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@config-plugins/react-native-google-cast@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@config-plugins/react-native-google-cast/-/react-native-google-cast-4.0.0.tgz#5132b5b6023b51126ee793181809e7bf276dce88"
-  integrity sha512-yxAlsdk3bHSdz84vGRU5QUhLATrfM9yACfY9trJdODGbM25mgGDPqDI5qt283EPQHiXiwVnJMUSXQYBuqVRUDg==
+"@config-plugins/react-native-google-cast@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@config-plugins/react-native-google-cast/-/react-native-google-cast-5.0.0.tgz#04126cbc83963900d53ca4bfc970a1b2096dfc0d"
+  integrity sha512-Vc4Ax4wZuW3VTwXmKx0TZM5+txe7NiMpJlP/cKrjTJfDL7fa7K5BHkxtL7TicW3h1FAS+fCKXw4TTlhv7KQ9uw==
 
 "@expo/bunyan@4.0.0", "@expo/bunyan@^4.0.0":
   version "4.0.0"

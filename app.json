@@ -22,21 +22,21 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.petrbela.RNGCExpo"
+      "bundleIdentifier": "com.denispavlovic.RNGCExpo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.petrbela.RNGCExpo"
+      "package": "com.denispavlovic.RNGCExpo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "513e7043-5edb-4c08-bfef-3fd4a7179b71"
+        "projectId": "7e09debf-c89f-48f8-ac57-8a02051f0437"
       }
     }
   }
